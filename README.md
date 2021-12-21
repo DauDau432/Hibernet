@@ -20,8 +20,8 @@ Chỉ cần nhập vào một thiết bị đầu cuối:
 
 Hoặc nhấp đúp vào chương trình trong winzoz.
 
-<h2>New functionality for multi target attack.</h2>
-Just put your IPs or urls inside "ips.txt"
+<h2> Chức năng mới cho tấn công đa mục tiêu. </h2>
+Chỉ cần đặt các IP hoặc url của bạn bên trong "ips.txt"
 
 <h2>Proxy generator</h2>
 Nếu bạn muốn có thêm proxy cho các cuộc tấn công của mình, bạn có thể sử dụng HiberProxy hoặc HiberSOCKS!
@@ -39,8 +39,3 @@ Bạn có thể tìm thấy nó ở đây: https://github.com/All3xJ/HiberProxy 
 
 
 Tấn công chỉ từ 1 vps tệ hại có thể gây nguy hiểm cho mục tiêu, vì vậy đừng nhắm mục tiêu không phải tài sản của bạn.
-
-
-
-<h2>Demonstration video:</h2>
-https://www.youtube.com/watch?v=G84R0qKMpO8
