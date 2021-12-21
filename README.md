@@ -16,7 +16,7 @@ Nếu bạn đang sử dụng winzoz, hãy nhập:
 
 <h2> Cách sử dụng </h2>
 Chỉ cần nhập vào một thiết bị đầu cuối:
-<pre>python3 HibernetV3.x</pre>
+<pre>python3 HibernetV3.0.py</pre>
 
 Hoặc nhấp đúp vào chương trình trong winzoz.
 
