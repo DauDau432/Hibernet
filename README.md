@@ -23,13 +23,13 @@ Hoặc nhấp đúp vào chương trình trong winzoz.
 <h2> Chức năng mới cho tấn công đa mục tiêu. </h2>
 Chỉ cần đặt các IP hoặc url của bạn bên trong "ips.txt"
 
-<h2>Proxy generator</h2>
+<h2> Trình tạo proxy </h2>
 Nếu bạn muốn có thêm proxy cho các cuộc tấn công của mình, bạn có thể sử dụng HiberProxy hoặc HiberSOCKS!
 
 Bạn có thể tìm thấy nó ở đây: https://github.com/All3xJ/HiberProxy và đây: https://github.com/All3xJ/HiberSOCKS
 
 
-<h1>ENJOY!</h1>
+<h1> THƯỞNG THỨC! </h1>
 
 
 
