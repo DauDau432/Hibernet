@@ -1,34 +1,32 @@
-# Hibernet
-A powerful HTTP flooding tool.
-You can choose if use proxy/socks to anonymize attack.
+# Hibernate
+Một công cụ làm tràn ngập HTTP mạnh mẽ.
+Bạn có thể chọn nếu sử dụng proxy / tất để ẩn danh cuộc tấn công.
+Vui lòng đề xuất cho tôi một số ý tưởng, và báo cáo lỗi!
+Cảm ơn!
 
-Please suggest me some ideas, and report bugs!
-Thanks!
 
+<h2> Cài đặt phần phụ thuộc </h2>
+Để sử dụng nó, bạn phải sử dụng python3 và bạn cũng cần một mô-đun bổ sung.
 
-<h2>Install dependencies</h2>
-To use it you have to use python3 and you also need an extra module.
-
-To install it if you are running linux or mac, type:
+Để cài đặt nó nếu bạn đang chạy linux hoặc mac, hãy nhập:
 <pre>pip3 install pysocks</pre>
 
-If you are under winzoz, type:
+Nếu bạn đang sử dụng winzoz, hãy nhập:
 <pre>py -m pip install pysocks</pre>
 
-<h2>Usage</h2>
-Just type on a terminal:
+<h2> Cách sử dụng </h2>
+Chỉ cần nhập vào một thiết bị đầu cuối:
 <pre>python3 HibernetV3.x</pre>
 
-Or double click on the program in winzoz.
-
+Hoặc nhấp đúp vào chương trình trong winzoz.
 
 <h2>New functionality for multi target attack.</h2>
 Just put your IPs or urls inside "ips.txt"
 
 <h2>Proxy generator</h2>
-If you want more proxies for your attacks, you can use HiberProxy or HiberSOCKS!
+Nếu bạn muốn có thêm proxy cho các cuộc tấn công của mình, bạn có thể sử dụng HiberProxy hoặc HiberSOCKS!
 
-You can found it here: https://github.com/All3xJ/HiberProxy and here: https://github.com/All3xJ/HiberSOCKS
+Bạn có thể tìm thấy nó ở đây: https://github.com/All3xJ/HiberProxy và đây: https://github.com/All3xJ/HiberSOCKS
 
 
 <h1>ENJOY!</h1>
@@ -40,7 +38,7 @@ You can found it here: https://github.com/All3xJ/HiberProxy and here: https://gi
 ![alt text](https://i.imgur.com/BcvW4C3.png)
 
 
-Attack from just 1 lousy vps can be dangerous for a target, so don't aim targets that are not your property.
+Tấn công chỉ từ 1 vps tệ hại có thể gây nguy hiểm cho mục tiêu, vì vậy đừng nhắm mục tiêu không phải tài sản của bạn.
 
 
 
