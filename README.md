@@ -29,13 +29,9 @@ Nếu bạn muốn có thêm proxy cho các cuộc tấn công của mình, bạ
 Bạn có thể tìm thấy nó ở đây: https://github.com/All3xJ/HiberProxy và đây: https://github.com/All3xJ/HiberSOCKS
 
 
-<h1> THƯỞNG THỨC! </h1>
-
-
-
+<h1> Hình ảnh minh họa </h1>
 ![alt text](https://i.imgur.com/odr1rPd.png)
 ![alt text](https://i.imgur.com/3YNngR0.png)
 ![alt text](https://i.imgur.com/BcvW4C3.png)
-
 
 Tấn công chỉ từ 1 vps tệ hại có thể gây nguy hiểm cho mục tiêu, vì vậy đừng nhắm mục tiêu không phải tài sản của bạn.
