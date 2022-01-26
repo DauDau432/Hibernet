@@ -6,7 +6,7 @@ Cảm ơn!
 
 
 <h2> Cài đặt phần phụ thuộc </h2>
-Để sử dụng nó, bạn phải sử dụng python3 và bạn cũng cần một mô-đun bổ sung.
+Để sử dụng nó, bạn phải sử dụng python3 và bạn cũng cần một module bổ sung.
 
 Để cài đặt nó nếu bạn đang chạy linux hoặc mac, hãy nhập:
 <pre>pip3 install pysocks</pre>
