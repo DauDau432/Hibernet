@@ -577,10 +577,10 @@ def proxylist():
 def numthreads():
 	global threads
 	try:
-		threads = int(input("Chèn số lượng chủ đề (800): "))
+		threads = int(input("Chèn số lượng truy cập (800): "))
 	except ValueError:
 		threads = 800
-		print ("800 chủ đề được chọn.\n")
+		print ("800 truy cập được chọn.\n")
 	multiplication()
 
 def multiplication():
