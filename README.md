@@ -21,7 +21,7 @@ Chỉ cần nhập vào một thiết bị đầu cuối:
 Hoặc nhấp đúp vào chương trình trong winzoz.
 
 <h2> Chức năng mới cho tấn công đa mục tiêu. </h2>
-Chỉ cần đặt các IP hoặc url của bạn bên trong `ips.txt`
+Chỉ cần đặt các IP hoặc url của bạn bên trong  <pre>ips.txt</pre>
 
 <h2> Trình tạo proxy </h2>
 Nếu bạn muốn có thêm proxy cho các cuộc tấn công của mình, bạn có thể sử dụng HiberProxy hoặc HiberSOCKS!
