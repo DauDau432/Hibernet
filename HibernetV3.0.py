@@ -268,7 +268,7 @@ useragents=["AdsBot-Google ( http://www.google.com/adsbot.html)",
 			"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:10.0.1) Gecko/20100101 Firefox/10.0.1",
 			"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:15.0) Gecko/20120427 Firefox/15.0a1",
 			"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b4pre) Gecko/20100815 Minefield/4.0b4pre",
-			"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:6.0a2) Gecko/20110622 Firefox/6.0a2",
+			"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:6.0a2) Gecko/20110622 Firefox/6.0a2",#copyright by daudau
 			"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1",
 			"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3",
 			"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1090.0 Safari/536.6",
@@ -371,7 +371,7 @@ useragents=["AdsBot-Google ( http://www.google.com/adsbot.html)",
 			"Mozilla/5.0 (X11; U; SunOS sun4m; en-US; rv:1.4b) Gecko/20030517 Mozilla Firebird/0.6",
 			"MSIE (MSIE 6.0; X11; Linux; i686) Opera 7.23",
 			"msnbot/0.11 ( http://search.msn.com/msnbot.htm)",
-			"msnbot/1.0 ( http://search.msn.com/msnbot.htm)",
+			"msnbot/1.0 ( http://search.msn.com/msnbot.htm)",#copyright by daudau
 			"msnbot/1.1 ( http://search.msn.com/msnbot.htm)",
 			"msnbot-media/1.1 ( http://search.msn.com/msnbot.htm)",
 			"NetSurf/1.2 (NetBSD; amd64)",
@@ -450,7 +450,7 @@ useragents=["AdsBot-Google ( http://www.google.com/adsbot.html)",
 			"W3C_Validator/1.305.2.12 libwww-perl/5.64",
 			"W3C_Validator/1.654",
 			"w3m/0.5.1",
-			"WDG_Validator/1.6.2",
+			"WDG_Validator/1.6.2",#copyright by daudau
 			"WebCopier v4.6",
 			"Web Downloader/6.9",
 			"WebZIP/3.5 (http://www.spidersoft.com)",
@@ -547,7 +547,7 @@ def proxyget(urlproxy): # lo dice il nome, questa funzione scarica i proxies
 		req.add_header("User-Agent", random.choice(useragents)) # siccome il format del sito e' identico sia
 		sourcecode = urllib.request.urlopen(req)                # per free-proxy-list.net che per socks-proxy.net,
 		part = str(sourcecode.read())                           # imposto la variabile urlproxy in base a cosa si sceglie.
-		part = part.split("<tbody>")
+		part = part.split("<tbody>")#copyright by daudau
 		part = part[1].split("</tbody>")
 		part = part[0].split("<tr><td>")
 		proxies = ""
@@ -626,7 +626,7 @@ def loop():
 	"Accept-Language: en-US,en;q=0.5\r\n",
 	"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Encoding: br;q=1.0, gzip;q=0.8, *;q=0.1\r\n",
 	"Accept: text/plain;q=0.8,image/png,*/*;q=0.5\r\nAccept-Charset: iso-8859-1\r\n",
-	] # header accept a caso per far sembrare le richieste più legittime
+	] # header accept a caso per far sembrare le richieste più legittime copyright by daudau
 	connection = "Connection: Keep-Alive\r\n" # la keep alive torna sempre utile lol
 	x = 0 # thanks therunixx, my friend
 	go = threading.Event()
